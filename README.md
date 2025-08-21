@@ -1,8 +1,8 @@
 # Hezeruna AI Cybersecurity/IT AI Assistant
 Hezeruna is an AI-powered chatbot assistant that is focused on IT and Cybersecurity topics through the use of python. 
-Hezeruna is combines:
-- Google Custome Search API: It fetches relevant security information through notable sources from aticles, blogs, and frameworks
-- OpenAI GPT API: This expands, explains, and contextulizes results in a professional tone
+Hezeruna combines:
+- Google Custome Search API: It fetches relevant security information through notable sources from articles, blogs, and frameworks
+- OpenAI GPT API: This expands, explains, and contextualizes results in a professional tone
 
 Hezeruna demonstrates how to integrate multiple AI services into one workflow that showcases practical skills when it comes to API integration, error handling, and security focused development.
 
