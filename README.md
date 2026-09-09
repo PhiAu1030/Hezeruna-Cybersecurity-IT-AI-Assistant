@@ -40,7 +40,7 @@ Workflow:
 ---
 
 # Lessons Learned
-- Chaining and combining APIs increases trust and accuracy for responses when compared to only using one
+- Chaining and combining APIs van improve context and response quality when compared to only using one
 - Error handling is critical which is why implementing fallback logic can ensure that a professional response improves reliability 
 - Modular code structure makes projects clear to reviewers and demonstrates best practices
 - Integrating .env variables should be the standard way when it comes to API key safety
