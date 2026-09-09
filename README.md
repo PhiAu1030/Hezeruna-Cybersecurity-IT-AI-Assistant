@@ -1,7 +1,7 @@
 # Hezeruna AI Cybersecurity/IT AI Assistant
-Hezeruna is an AI-powered chatbot assistant that is focused on IT and Cybersecurity topics through the use of python. 
+Hezeruna is an AI-powered chatbot assistant that is focused on IT and Cybersecurity topics through the use of Python. 
 Hezeruna combines:
-- Google Custome Search API: It fetches relevant security information through notable sources from articles, blogs, and frameworks
+- Google Custom Search API: It fetches relevant security information through notable sources from articles, blogs, and frameworks
 - OpenAI GPT API: This expands, explains, and contextualizes results in a professional tone
 
 Hezeruna demonstrates how to integrate multiple AI services into one workflow that showcases practical skills when it comes to API integration, error handling, and security focused development.
@@ -33,15 +33,15 @@ Workflow:
 ---
 
 # Setup & Configurations
-1. brain.py - The orchestrator of Hezeruna. This controls all the overall logic by sending user's query to Google Search and then it devides OpenAI should expand on the information retrieved or fallback and have OpenAI explain it without the use of relevant findings
+1. brain.py - The brain of Hezeruna. This controls all the overall logic by sending user's query to Google Search and then it decides OpenAI should expand on the information retrieved or fallback and have OpenAI explain it without the use of relevant findings
 2. google_search.py - Handles the retrieval of information. Connecting to Google Custom Search API, it processes the results, filters snippets that are weak, and returns the most relevant one
-3. OpenAI.py - Handles the reasoning. Connecting to OpenAI API and returns the explanation in a professional tone with natural langauage.
+3. OpenAI.py - Handles the reasoning. Connecting to OpenAI API and returns the explanation in a professional tone with natural language.
 
 ---
 
 # Lessons Learned
 - Chaining and combining APIs increases trust and accuracy for responses when compared to only using one
-- Error handling is critical which is why implementing fallback logic can ensure that a professional accurate response will always work
+- Error handling is critical which is why implementing fallback logic can ensure that a professional response improves reliability 
 - Modular code structure makes projects clear to reviewers and demonstrates best practices
 - Integrating .env variables should be the standard way when it comes to API key safety
 
